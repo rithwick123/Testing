@@ -1,0 +1,112 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fullscreen background image */
+body, html {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Dark overlay */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* Content on top of overlay */
+.content {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: yellow;
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #1f80e0;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  font-family:'Georgia', serif;
+}
+
+#down {
+  margin: 10px;
+font-family: 'Georgia', serif;¹l
+}
+#position {
+  margin: 10px;
+  font-family:'Georgia', serif;
+
+.navbar {
+  background: crimson; font-family: calbri; padding-right: 15px;padding-left: 15px;
+}
+
+.navdiv{
+  display: flex;
+  align-items: center;
+  justify-content: space- between;
+}
+.logo a{
+  font-size: 35px; 
+  font-weight: 600;
+  color: white;
+}
+.li {
+  list-style: none; 
+  display: inline-block;
+}
+.li a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+.button {
+  background-color: black;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90px;
+}
+.button a {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  
+}
